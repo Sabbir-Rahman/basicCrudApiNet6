@@ -7,6 +7,6 @@ namespace basicCrudApi
         public int Id { get; set; }
 
         [StringLength(20)]
-        public string StatusOption { get; set; } = string.Empty
-    }
+        public string StatusOption { get; set; } = string.Empty;
+    };
 }
